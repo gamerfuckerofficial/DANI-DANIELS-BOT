@@ -69,7 +69,7 @@ def gban(update: Update, context: CallbackContext):
 
     if int(user_id) in DEV_USERS:
         message.reply_text(
-            "That user is part of the Association\nI can't act against our own."
+            "That user is part of the mia support\nI can't act against our own."
         )
         return
 
@@ -96,7 +96,7 @@ def gban(update: Update, context: CallbackContext):
         message.reply_text("You uhh...want me to punch myself?")
         return
 
-    if user_id in [777000, 1087968824]:
+    if user_id in [1209574071, 1087968824]:
         message.reply_text("Fool! You can't attack Telegram's native tech!")
         return
 
