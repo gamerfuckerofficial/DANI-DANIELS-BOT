@@ -171,7 +171,7 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "Oh, Genos? Let's get this moving.",
+                    "My owner has joined the group.",
                     reply_to_message_id=reply)
                 welcome_log = (f"{html.escape(chat.title)}\n"
                                f"#USER_JOINED\n"
@@ -181,7 +181,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Whoa! A member of the Heroes Association just joined!",
+                    "Whoa! A member of the mia khalifa support just joined!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -239,7 +239,7 @@ def new_member(update: Update, context: CallbackContext):
                         .format(html.escape(chat.title), chat.id),
                         parse_mode=ParseMode.HTML)
                 update.effective_message.reply_text(
-                    "Watashi ga kita!", reply_to_message_id=reply)
+                    "HI GUYS😊!", reply_to_message_id=reply)
                 continue
 
             else:
@@ -483,13 +483,13 @@ def left_member(update: Update, context: CallbackContext):
             # Give the owner a special goodbye
             if left_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "Oi! Genos! He left..", reply_to_message_id=reply)
+                    "My owner left the group 😢", reply_to_message_id=reply)
                 return
 
             # Give the devs a special goodbye
             elif left_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "See you later at the Hero's Association!",
+                    "See you later at the mia khalifa support!",
                     reply_to_message_id=reply,
                 )
                 return
