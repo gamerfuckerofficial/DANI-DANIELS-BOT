@@ -12,7 +12,7 @@ from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 
 info_btn = "More Information"
-kaizoku_btn = "Kaizoku ☠️"
+kaizoku_btn = "MIA ☠️"
 kayo_btn = "Kayo 🏴‍☠️"
 prequel_btn = "⬅️ Prequel"
 sequel_btn = "Sequel ➡️"
