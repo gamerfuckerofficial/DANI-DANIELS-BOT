@@ -80,7 +80,7 @@ And the following:
 SAITAMA_IMG = "https://telegra.ph/file/5425dcbe6f8b360846d32.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-MIA KHALIFA is hosted on one of Gamerfucker's Servers and doesn't require any donations as of now but \
+DANI DANIELS is hosted on one of Gamerfucker's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Gamerfucker
 There are two ways of supporting him; [owner](t.me/Gamerfucker), or [INSTAGRAM](https://www.instagram.com/sastememeofficial/)."""
 
