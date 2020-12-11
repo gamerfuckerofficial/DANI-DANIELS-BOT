@@ -377,7 +377,7 @@ def set_about_me(update: Update, context: CallbackContext):
     if message.reply_to_message:
         repl_message = message.reply_to_message
         repl_user_id = repl_message.from_user.id
-        if repl_user_id in [bot.id, 1209574071, 1087968824] and (user_id
+        if repl_user_id in [bot.id, 777000, 1087968824] and (user_id
                                                              in DEV_USERS):
             user_id = repl_user_id
     text = message.text
