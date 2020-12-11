@@ -239,7 +239,7 @@ def new_member(update: Update, context: CallbackContext):
                         .format(html.escape(chat.title), chat.id),
                         parse_mode=ParseMode.HTML)
                 update.effective_message.reply_text(
-                    "Watashi ga kita!", reply_to_message_id=reply)
+                    "HI I AM DANI DANIELS😘", reply_to_message_id=reply)
                 continue
 
             else:
