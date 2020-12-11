@@ -59,7 +59,7 @@ You can find my list of available commands with /help.
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a pornstar For Fun and help admins manage their groups with MIA support ! Have a look at the following for an idea of some of \
+I'm a pornstar For Fun and help admins manage their groups with DANI DANIELS support ! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -77,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/6a95a97bee10856c5c19d.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/5425dcbe6f8b360846d32.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 MIA KHALIFA is hosted on one of Gamerfucker's Servers and doesn't require any donations as of now but \
@@ -200,7 +200,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add MIA KHALIFA to your group",
+                            text="☑️ Add DANI DANIELS to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
